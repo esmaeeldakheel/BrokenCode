@@ -2,34 +2,34 @@
 #When you run it, enter the sample problem one line at a time and hit enter in between each line. You should get the right output.
 
 #read in how many lines there are
-lines = input()
+lines = int(input())
 #setup output variable
 output=""
-#loop through the lines
+#loop through the lines[]
 for i in range(0,lines):
     #read in a line
-currentLine=Input()
+    currentLine=input()
     #set the current char variable and give it a dummy value
-currentChar=='a'
+    currentChar=='a'
     #set the current count to 0
-currentCount=0
+    currentCount=0
     #set the previous count variable and give it a dummy value
-            previousChar=''
+    previousChar=''
     #loop through the characters in the line
-    for j in Range(1,len(currentLine)))):
+    for j in Range(1,len(currentLine)):
         #if it's your first line,
-        if j==0
+        if j==0:
             #set the current char to the current letter
-                currentChar==currentLine[j]
+            currentChar==currentLine[j]
             #set the count to 1
-            currentCount=3
-                else:
+            currentCount=1
+            else:
             #set previous to current char
-            previouschar=currentchar
+            previousChar=currentChar
             #get the new current char from position j
-            currentChar=currentLine{j}
+            currentChar=currentLine[j]
             #if current and previous are the same
-            if currentChar=previousChar):
+            if currentChar==previousChar:
                 #increase the count
         currentCount-=1
             #if they aren't the same
